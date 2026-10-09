@@ -1,6 +1,6 @@
 <h1 align="center">EditHero: A Benchmark for Long-Horizon Part-Level 3D Editing and Vibe Modeling</h1>
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://auroraryan0301.github.io/">Ruihan Yu</a><sup>1,2*</sup>,
   <a href="https://liagm.github.io/">Yu-Ju Tsai</a><sup>3,4*</sup>,
   <a href="https://myniuuu.github.io/">Muyao Niu</a><sup>1,2</sup>,
@@ -20,9 +20,9 @@
   <sup>2</sup>The University of Tokyo &nbsp;&nbsp;
   <sup>3</sup>Institute of Science Tokyo &nbsp;&nbsp;
   <sup>4</sup>University of California, Merced
-</p>
+</p> -->
 
-<p align="center"><sup>*</sup>Equal contribution &nbsp;&nbsp; <sup>&dagger;</sup>Corresponding authors</p>
+<!-- <p align="center"><sup>*</sup>Equal contribution &nbsp;&nbsp; <sup>&dagger;</sup>Corresponding authors</p> -->
 
 <p align="center">
   <a href="https://arxiv.org/pdf/2610.02298"><img src="https://img.shields.io/badge/arXiv-2610.02298-b31b1b"></a>
