@@ -104,7 +104,8 @@ def _load_qvecs(path):
     """Query caches hold a Unicode text array and a float array; they are read without pickle. Caches written by older versions
     (object arrays) are rejected: delete them and rebuild with `embed_library.py --queries-only`."""
     try:
-        return np.load(path, allow_pickle=False)
+        with np.load(path, allow_pickle=False) as z:
+            return dict(texts=np.asarray(z["texts"]), vecs=np.asarray(z["vecs"]))
     except ValueError as e:
         raise RuntimeError(f"{path} is in an old format that needs pickle to load; delete it and rebuild it with "
                            "embed_library.py --queries-only") from e
