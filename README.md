@@ -34,6 +34,10 @@
   <img src="assets/teaser.png" width="100%" alt="EditHero teaser">
 </p>
 
+<p align="center">
+  <img src="assets/leaderboard.webp" width="100%" alt="EditHero leaderboard: LLMs writing code vs 3D editing methods">
+</p>
+
 ## 📰 News
 
 - **[2026-10-08]** Data engine and the full dataset released ([Hugging Face](https://huggingface.co/datasets/AlayaLab/EditHero)).
